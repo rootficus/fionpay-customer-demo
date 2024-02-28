@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">testing.fionpay.com</domain>
+        <domain includeSubdomains="true">api.utell.com</domain>
+        <domain includeSubdomains="true">192.168.1.77</domain>
+        <domain includeSubdomains="true">192.168.1.67</domain>
+        <domain includeSubdomains="true">192.168.1.82</domain>
+        <domain includeSubdomains="true">192.168.1.74</domain>
+    </domain-config>
+</network-security-config>
